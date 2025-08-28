@@ -58,9 +58,13 @@ void quickSort(int *V, int inicio, int fim, int *comparacoes, int *movimentacoes
 //============================================
 
 int main(){
-    int vet[5] = {10, -7, 15, 2, 30};
-    int N = 5, comparacoes = 0, movimentacoes = 0;
-
+    int vet[6];
+    int N = 6, comparacoes = 0, movimentacoes = 0;
+    srand(time(NULL));
+    for(int i = 0; i < N; i++){
+        vet[i] = rand() % 100;
+    }
+    
     printf("Sem ordenar:\n");
     printfVet(vet,N);
     printfLinha();
