@@ -78,7 +78,7 @@ void salvarResultados(int *vet, int N, int comparacoes, int movimentacoes) {
     fprintf(arquivo, "- Tamanho do vetor: %d elementos\n", N);
     
     fclose(arquivo);
-    printf("Resultados salvos em 'resultados.txt'\n");
+    printf("Resultados salvos em 'quicksort/resultados.txt'\n");
 }
 
 int main(){

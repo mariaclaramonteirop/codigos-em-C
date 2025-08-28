@@ -1,8 +1,0 @@
-=== RESULTADOS DA ORDENAÇÃO QUICKSORT ===
-
-Vetor ordenado: 11 56 95 98 98 99 
-
-Estatísticas da ordenação:
-- Número de comparações: 22
-- Número de movimentações: 10
-- Tamanho do vetor: 6 elementos
